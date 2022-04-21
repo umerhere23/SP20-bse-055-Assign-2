@@ -6,10 +6,15 @@
     android:orientation="vertical"
     tools:context=".leftfrag">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/btninput"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="fragment1" />
+        android:layout_height="wrap_content"
+        android:text="@string/btninput" />
 
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btncalculate" />
 </LinearLayout>
